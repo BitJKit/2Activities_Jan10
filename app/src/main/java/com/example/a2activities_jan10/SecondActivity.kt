@@ -2,6 +2,7 @@ package com.example.a2activities_jan10
 
 import android.os.Bundle
 import android.widget.Button
+import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 
 class SecondActivity: AppCompatActivity() {
@@ -14,6 +15,7 @@ class SecondActivity: AppCompatActivity() {
 
         mainBtn = findViewById(R.id.btnMain)
         mainBtn.text = getString(R.string.second_screen)
+        Toast.makeText(applicationContext, "Hello World!", Toast.LENGTH_LONG).show()
     }
 
 }
